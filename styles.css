@@ -3,3 +3,119 @@
   color: red;
   font-weight: bold;
 }
+
+/* h1 {
+  color: red;
+  background-color: aqua;
+}
+
+h1 {
+  color: green;
+  color: orange;
+} */
+
+/* id selector */
+#h1 {
+  color: purple;
+}
+
+/* class selector */
+.h1 {
+  color: orange;
+}
+
+/* type selector */
+h1 {
+  color: blue;
+}
+
+/* p {
+  background-color: lightpink;
+} */
+
+/* .text {
+  background-color: lightsalmon;
+} */
+
+/* a paragraph which has the class of 'text' */
+p.text {
+  background-color: lightskyblue;
+}
+
+/* an h3 which has the class of 'sub-heading' */
+h3.sub-heading {
+  color: darkmagenta;
+  background-color: orange;
+}
+
+/* <h4 class="h4 heading-4">Lorem ipsum dolor sit.</h4> */
+p.heading-4.h4 {
+  color: red;
+  background-color: lightgray;
+}
+
+/* p.txt {
+  background-color: lightgreen;
+} */
+
+/* p.paragraph {
+  background-color: lightgreen;
+} */
+
+/* .paragraph {
+  background-color: lightgreen;
+} */
+
+/* .txt {
+  background-color: lightgreen;
+} */
+
+/* p.paragraph {
+  background-color: lightgreen;
+}
+
+p.txt {
+  background-color: lightgreen;
+}
+
+p.txt.paragraph {
+  background-color: lightgreen;
+} */
+
+/* <section class="box">
+          <p class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis obcaecati odio, doloribus eaque voluptates blanditiis excepturi possimus quis, impedit corporis, quaerat fugiat alias praesentium! Impedit, ducimus. Expedita, sint qui? Beatae!</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, explicabo!</p>
+</section> */
+
+/* get me a section which has the class of '.box' and style the p element inside it */
+section.box p {
+  background-color: orangered;
+}
+
+/* find an element which has the class of .box and inside it find a p element which has the class of .content */
+.box p.content {
+  background-color: darkgreen;
+}
+
+/* <section class="wrapper">
+          <h2 class="heading">Lorem, ipsum dolor.</h2>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam neque, beatae exercitationem ipsa sint reiciendis alias aut rem a deserunt.</p>
+          <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, voluptates.</p>
+</section> */
+
+section.wrapper {
+    background-color: lightgoldenrodyellow;  
+}
+
+section.wrapper h2.heading {
+  background-color: orange;
+}
+
+.wrapper p.text {
+  background-color: darkblue;
+  color: white;
+}
+
+.wrapper p#text {
+  text-transform: uppercase;
+}
