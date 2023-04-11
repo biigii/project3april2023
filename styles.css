@@ -1,26 +1,7 @@
-/* block element */
-h1 {
-  background-color: red;
-  display: inline;
+.my-section {
+  background-color: lightgreen;
 }
 
-
-/* inline element */
-a {
-  background-color: red;
-  display: block;
-}
-
-/* p {
-  background-color: yellow;
-} */
-
-.text {
-  background-color: yellow;
-}
-
-.important {
-  color: red;
-  background-color: yellow;
-  font-weight: bold;
+.blue {
+  background-color: lightblue;
 }
