@@ -1,7 +1,5 @@
-.my-section {
-  background-color: lightgreen;
-}
-
-.blue {
-  background-color: lightblue;
+.middle {
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
 }
